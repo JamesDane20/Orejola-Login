@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.wrapper{
+    background: url(bground2.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50%;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.527);
+}
+.Logo{
+    width: 85px;
+    height: 65px;
+    padding-top: 15px;
+    padding-left: 25px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 6px 13px;
+}
+.navbar ul li a:hover{
+    background: rgb(188, 8, 8);
+    border-radius: 1px;
+}
+.wrapper .center{
+    font-family: sans-serif;
+    user-select: none;
+}
+.center h1{
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    font-weight: bold;
+    width: 900px;
+    margin-top: 20px;
+    text-align: center;
+    padding-left: 400px;
+}
+.center h2{
+    color: rgb(255, 254, 254);
+    font-size: 24px;
+    font-weight: bold;
+    width: 855px;
+    margin-top: 10px;
+    text-align: center;
+    padding-left: 450px;
+
+}
+.center .buttons{
+    margin: 35px 515px;
+    margin-top: 15px;
+}
+.buttons button{
+    height: 40px;
+    width: 120px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background: red;
+    border: 1px solid #cc0000;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+}
+.buttons .btn{
+    margin-left: 1px;
+}
+.buttons button:hover{
+    background: rgba(255, 4, 0, 0.164);
+}
